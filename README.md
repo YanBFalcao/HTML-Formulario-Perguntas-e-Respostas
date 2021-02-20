@@ -34,7 +34,9 @@ O exercício possuirá contuinudade de repositorys com implementações de:
 Com este exercício, inicio assim, minha trilha prática de desenvolvimento de exercícios através de linguagens de programação.
 
 Cordialmente,
+
 Yan B. Falcão
+
 https://www.linkedin.com/in/yanboninifalcao/
 
 							           ▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬ 
