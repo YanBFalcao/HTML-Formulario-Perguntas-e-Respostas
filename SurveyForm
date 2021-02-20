@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"/>
+    <title>Questionário Sobre Música</title> <!-- Titulo de aba -->
+
+<div align="center">
+	<h1> Escola de Música Modos Gregos </h1>
+</div>
+
+
+<div align="center">
+
+======================================================================= <!-- cabeçalho preenchimento -->
+	
+	<div>
+		<h3>Digite o seu nome:</h3>
+		<input type="text" name="txtNome" style= "width:500px; height:20px"> <br> <br> </input>
+	</div>
+
+	<div>
+		<h3>Digite a sua idade:</h3>
+		<input type="text" name="txtIdade" style= "width:500px; height:20px"> <br> <br> </input>
+	</div>
+
+</div>
+
+<br></br>
+
+<div align="center">  <!-- div para alinhar TUDO ao centro -->
+
+=======================================================================
+
+<h2> Questionário </h2>
+
+=======================================================================
+
+<table Style="widht:500px" cellspacing="1" cellpadding="10" bgcolor="#7FFFD4" border="1">
+	
+<form name ="formularioSatisfacao">
+
+<h3> 1) Qual o seu grau de satisfação com os cursos abaixo? </h3>
+
+	<div> 
+
+	<!-- Seleção 1 --> 
+
+		<td bgcolor="#B5B5B5" align="center">
+			Violão 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoViolao"> Totalmente <br> Insatisfeito <br> </input> <!-- "name" impede a seleção de mais de um radio button -->
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoViolao"> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoViolao"> Neutro <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoViolao"> Satisfeito <br> </input>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoViolao"> Muito <br> Satisfeito <br> </input>
+		</td>
+
+
+	</div>
+
+	<div > 
+
+	<!-- Seleção 2 -->
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Canto 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoCanto"> Totalmente <br> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoCanto"> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoCanto"> Neutro <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoCanto"> Satisfeito <br> </input>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoCanto"> Muito <br> Satisfeito <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Guitarra 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoGuitarra"> Totalmente <br> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoGuitarra"> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoGuitarra"> Neutro <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoGuitarra"> Satisfeito <br> </input>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoGuitarra"> Muito <br> Satisfeito <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Baixo 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoBaixo"> Totalmente <br> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoBaixo"> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoBaixo"> Neutro <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoBaixo"> Satisfeito <br> </input>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoBaixo"> Muito <br> Satisfeito <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Bateria 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoBateria"> Totalmente <br> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoBateria"> Insatisfeito <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoBateria"> Neutro <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="satisfacaoBateria"> Satisfeito <br> </input>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="satisfacaoBateria"> Muito <br> Satisfeito <br> </input>
+		</td>
+	</tr>
+
+	</div> <!-- Inicio Formulário Satisfação --> 
+
+</table>
+
+</form> <!-- Fim Formulário Satisfação --> 
+
+<br></br>
+
+=======================================================================
+
+<table Style="widht:500px" cellspacing="1" cellpadding="10" bgcolor="#7FFFD4" border="1">
+
+<form name ="formularioProfessores"> <!-- Inicio Formulário Professores --> 
+
+<h3> 2)	Qual a sua nota para os professores abaixo? </h3>
+	
+	<div > <!-- Seleção 1 --> 
+		<td bgcolor="#B5B5B5" align="center">
+			Pedro 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorPedro"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorPedro"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorPedro"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorPedro"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorPedro"> Excelente <br> </input>
+		</td>
+	</div>
+
+	<div > <!-- Seleção 2 -->
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Gabriel 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorGabriel"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorGabriel"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorGabriel"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorGabriel"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorGabriel"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Daniel 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorDaniel"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorDaniel"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorDaniel"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorDaniel"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessorDaniel"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Monica 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraMonica"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraMonica"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraMonica"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraMonica"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraMonica"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Lara 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraLara"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraLara"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraLara"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraLara"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="ProfessoraLara"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	</div>
+
+</table>
+
+</form> <!-- Fim Formulário Professores --> 
+
+<br></br>
+
+=======================================================================
+
+<table Style="widht:500px" cellspacing="1" cellpadding="10" bgcolor="#7FFFD4" border="1" >
+
+<form name ="formularioCursosRealizar"> <!-- Inicio Formulario Cursos a Realizar --> 
+
+<h3> 3)	Qual outro curso tem vontade de aprender a realizar? </h3>
+	
+	<div > <!-- Seleção 1 --> 
+		<td bgcolor="#B5B5B5" align="center">
+			Violão 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="CursoViolao"> Sem vontade <br> alguma <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoViolao"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoViolao"> Talvez faça <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoViolao"> Gostaria de fazer <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoViolao"> Farei <br> </input>
+		</td>
+	</div>
+
+	<div > <!-- Seleção 2 -->
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Canto 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="CursoCanto"> Sem vontade <br> alguma <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoCanto"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoCanto"> Talvez faça <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoCanto"> Gostaria de fazer <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoCanto"> Farei <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Guitarra 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="CursoGuitarra"> Sem vontade <br> alguma <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoGuitarra"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoGuitarra"> Talvez faça <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoGuitarra"> Gostaria de fazer <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoGuitarra"> Farei <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Baixo 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="CursoBaixo"> Sem vontade <br> alguma <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBaixo"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBaixo"> Talvez faça <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBaixo"> Gostaria de fazer <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBaixo"> Farei <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Bateria 
+			<br>
+		</td>
+
+		<td align="center">
+			<input type="radio" name ="CursoBateria"> Sem vontade <br> alguma <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBateria"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBateria"> Talvez faça <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBateria"> Gostaria de fazer <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name ="CursoBateria"> Farei <br> </input>
+		</td>
+	</tr>
+
+	</div>
+
+</table>
+
+</form> <!-- Fim Formulário Cursos a Realizar --> 
+
+<br></br>
+
+=======================================================================
+
+<table Style="widht:500px" cellspacing="1" cellpadding="10" bgcolor="#7FFFD4" border="1" >
+
+<form name ="formularioRecomendacao"> <!-- Inicio formulario Recomendacao  --> 
+
+<h3> 4)	Recomendaria os cursos abaixo? </h3>
+	
+	<div > <!-- Seleção 1 --> 
+		<td bgcolor="#B5B5B5" align="center">
+			Violão 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoViolao"> Nunca <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoViolao"> Não <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoViolao"> Talvez <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoViolao"> Sim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoViolao"> Com Certeza <br> </input>
+		</td>
+	</div>
+
+	<div > <!-- Seleção 2 -->
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Canto 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoCanto"> Nunca <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoCanto"> Não <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoCanto"> Talvez <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoCanto"> Sim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoCanto"> Com Certeza <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Guitarra 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoGuitarra"> Nunca <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoGuitarra"> Não <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoGuitarra"> Talvez <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoGuitarra"> Sim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoGuitarra"> Com Certeza <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Baixo 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBaixo"> Nunca <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBaixo"> Não <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBaixo"> Talvez <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBaixo"> Sim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBaixo"> Com Certeza <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Bateria 
+			<br>
+		<td>
+			<input type="radio" name="recomendacaoCursoBateria"> Nunca <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBateria"> Não <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBateria"> Talvez <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBateria"> Sim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="recomendacaoCursoBateria"> Com Certeza <br> </input>
+		</td>
+	</tr>
+
+	</div>
+
+</table>
+
+</form> <!-- Fim Formulário formulario Recomendacao --> 
+
+<br></br>
+
+=======================================================================
+
+<table Style="widht:500px" cellspacing="1" cellpadding="10" bgcolor="#7FFFD4" border="1" >
+
+<form name ="formularioInstrumentos"> <!-- Inicio formulario Instrumentos  --> 
+
+<h3> 5)	Como você classifica os instrumentos para aprendizagem da escola? </h3>
+	
+	<div > <!-- Seleção 1 --> 
+		<td bgcolor="#B5B5B5" align="center">
+			Violão 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoViolao"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoViolao"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoViolao"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoViolao"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoViolao"> Excelente <br> </input>
+		</td>
+	</div>
+
+	<div > <!-- Seleção 2 -->
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Canto 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoCanto"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoCanto"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoCanto"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoCanto"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoCanto"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Guitarra 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoGuitarra"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoGuitarra"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoGuitarra"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoGuitarra"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoGuitarra"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Baixo 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBaixo"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBaixo"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBaixo"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBaixo"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBaixo"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#B5B5B5" align="center">
+			Bateria 
+			<br>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBateria"> Péssimo <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBateria"> Ruim <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBateria"> Bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBateria"> Muito bom <br> </input>
+		</td>
+
+		<td>
+			<input type="radio" name="instrumentoBateria"> Excelente <br> </input>
+		</td>
+	</tr>
+
+	</div>
+
+</table>
+
+</form> <!-- Fim Formulário formulario Instrumentos --> 
+
+<br></br>
+
+=======================================================================
+
+</div> <!-- div para alinhar TUDO ao centro -->
+
+
+
+<br></br>
+
+
+<form name="EnviarDados" method="post" action="mailto:yan-work@hotmail.com">
+
+<div align="center">
+
+	<br></br>
+
+		<input id="btnEnviar" name ="btnEnviar" type= "button" value = "Enviar Respostas!" align="center" Style= "width:150px; height:50px" onclick="validacao()" > <br> </input>
+
+		<script "text/javascript" src="SurveyForm.js"> TESTE </script> <!-- Chamando o JS para executar a tarefa de leitra das Radios Box -->
+
+</div>
+
+</form>
+
+
+<br></br>
+<br></br>
+
+</head>
+
+
+
+<!-- ======================================================================= --> 
+
+						      <!--JAVASCRIPT--> 
+
+<!-- ======================================================================= --> 
+
+<script type="text/javascript">
+	 
+    function validacao() // Função para validação de Radio Button
+    {
+
+// 1) Qual o seu grau de satisfação com os cursos abaixo?
+
+//
+        var validaA = false;
+		var validaB = false;
+		var validaC = false;
+		var validaD = false;
+		var validaE = false;
+
+        var SatisfacaoS = document.formularioSatisfacao.satisfacaoViolao; // fazendo validação linha do radio button
+        var SatisfacaoT = document.formularioSatisfacao.satisfacaoCanto; // fazendo validação linha do radio button
+		var SatisfacaoU = document.formularioSatisfacao.satisfacaoGuitarra; // fazendo validação linha do radio button
+		var SatisfacaoV = document.formularioSatisfacao.satisfacaoBaixo; // fazendo validação linha do radio button
+		var SatisfacaoX = document.formularioSatisfacao.satisfacaoBateria; // fazendo validação linha do radio button
+
+		for(var a = 0; a < SatisfacaoS.length; a++)
+        {
+            if(SatisfacaoS[a].checked)
+            {
+            	validaA = true; // Valida A
+
+            	if(validaA == true)
+            	{
+            		for(var b = 0; b < SatisfacaoT.length; b++)
+                	{
+                		if(SatisfacaoT[b].checked)
+                		{
+                			validaB = true; // Valida B
+
+                			if(validaB == true)
+            				{
+            					for(var c = 0; c < SatisfacaoU.length; c++)
+                				{
+                					if(SatisfacaoU[c].checked)
+                					{
+                						validaC = true; // Valida C
+                					
+                						if(validaC == true)
+            							{
+            								for(var d = 0; d < SatisfacaoV.length; d++)
+                							{
+                								if(SatisfacaoV[d].checked)
+                								{
+                									validaD = true;  // Valida D
+                			
+													if(validaD == true)
+            										{
+            											for(var e = 0; e < SatisfacaoX.length; e++)
+                										{
+                											if(SatisfacaoX[e].checked)
+                											{
+                												validaE = true;  // Valida E
+                												break;
+                											}
+                										}
+               										}
+                								}
+                							}
+               							}
+                					}
+                				}
+               				}
+                		}
+                	}
+                }
+            }
+        }
+
+        if((validaA == true) && (validaB == true) && (validaC == true) && (validaD == true) && (validaE == true))
+        {
+            alert("Validação de Campos com sucesso!");
+        }
+        else
+        {
+            alert("Falta campo a validar!");
+            //return false;
+        } // Script de funcionamento de validação de botão 1
+ 
+//
+
+		// ========================================================================================================
+
+		// 2) Qual a sua nota para os professores abaixo?
+
+		var validaF = false;
+		var validaG = false;
+		var validaH = false;
+		var validaI = false;
+		var validaJ = false;
+
+        var ProfessoresS = document.formularioProfessores.ProfessorPedro; // fazendo validação linha do radio button
+        var ProfessoresT = document.formularioProfessores.ProfessorGabriel; // fazendo validação linha do radio button
+		var ProfessoresU = document.formularioProfessores.ProfessorDaniel; // fazendo validação linha do radio button
+		var ProfessoresV = document.formularioProfessores.ProfessoraMonica; // fazendo validação linha do radio button
+		var ProfessoresX = document.formularioProfessores.ProfessoraLara; // fazendo validação linha do radio button
+
+        for(var f = 0; f < ProfessoresS.length; f++)
+        {
+            if(ProfessoresS[f].checked)
+            {
+            	validaF = true; // Valida A
+
+            	if(validaF == true)
+            	{
+            		for(var g = 0; g < ProfessoresT.length; g++)
+                	{
+                		if(ProfessoresT[g].checked)
+                		{
+                			validaG = true; // Valida B
+
+                			if(validaG == true)
+            				{
+            					for(var h = 0; h < ProfessoresU.length; h++)
+                				{
+                					if(ProfessoresU[h].checked)
+                					{
+                						validaH = true; // Valida C
+                					
+                						if(validaH == true)
+            							{
+            								for(var i = 0; i < ProfessoresV.length; i++)
+                							{
+                								if(ProfessoresV[i].checked)
+                								{
+                									validaI = true;  // Valida D
+                			
+													if(validaI == true)
+            										{
+            											for(var j = 0; j < ProfessoresX.length; j++)
+                										{
+                											if(ProfessoresX[j].checked)
+                											{
+                												validaJ = true;  // Valida E
+                												break;
+                											}
+                										}
+               										}
+                								}
+                							}
+               							}
+                					}
+                				}
+               				}
+                		}
+                	}
+                }
+            }
+        }
+
+        if((validaF == true) && (validaG == true) && (validaH == true) && (validaI == true) && (validaJ == true))
+        {
+            alert("Validação de Campos com sucesso!");
+        }
+        else
+        {
+            alert("Falta campo a validar!");
+            //return false;
+        }
+
+        // ========================================================================================================  // Script de funcionamento de validação de botão 2
+
+//
+        // 3)	Qual outro curso tem vontade de aprender a realizar?
+
+		var validaK = false;
+		var validaL = false;
+		var validaM = false;
+		var validaN = false;
+		var validaO = false;
+
+        var CursoS = document.formularioCursosRealizar.CursoViolao; // fazendo validação linha do radio button
+        var CursoT = document.formularioCursosRealizar.CursoCanto; // fazendo validação linha do radio button
+		var CursoU = document.formularioCursosRealizar.CursoGuitarra; // fazendo validação linha do radio button
+		var CursoV = document.formularioCursosRealizar.CursoBaixo; // fazendo validação linha do radio button
+		var CursoX = document.formularioCursosRealizar.CursoBateria; // fazendo validação linha do radio button
+
+        for(var k = 0; k < CursoS.length; k++)
+        {
+            if(CursoS[k].checked)
+            {
+            	validaK = true; // Valida A
+
+            	if(validaK == true)
+            	{
+            		for(var l = 0; l < CursoT.length; l++)
+                	{
+                		if(CursoT[l].checked)
+                		{
+                			validaL = true; // Valida B
+
+                			if(validaL == true)
+            				{
+            					for(var m = 0; m < CursoU.length; m++)
+                				{
+                					if(CursoU[m].checked)
+                					{
+                						validaM = true; // Valida C
+                					
+                						if(validaM == true)
+            							{
+            								for(var n = 0; n < CursoV.length; n++)
+                							{
+                								if(CursoV[n].checked)
+                								{
+                									validaN = true;  // Valida D
+                			
+													if(validaN == true)
+            										{
+            											for(var o = 0; o < CursoX.length; o++)
+                										{
+                											if(CursoX[o].checked)
+                											{
+                												validaO = true;  // Valida E
+                												break;
+                											}
+                										}
+               										}
+                								}
+                							}
+               							}
+                					}
+                				}
+               				}
+                		}
+                	}
+                }
+            }
+        }
+
+        if((validaK == true) && (validaL == true) && (validaM == true) && (validaN == true) && (validaO == true))
+        {
+            alert("Validação de Campos com sucesso!");
+        }
+        else
+        {
+            alert("Falta campo a validar!");
+            //return false;
+        } // Script de funcionamento de validação de botão 3
+
+//
+    
+    // 4) Recomendaria os cursos abaixo?
+
+		var validaP = false;
+		var validaQ = false;
+		var validaR = false;
+		var validaS = false;
+		var validaT = false;
+
+        var RecomendacaoCursoS = document.formularioRecomendacao.recomendacaoCursoViolao; // fazendo validação linha do radio button
+        var RecomendacaoCursoT = document.formularioRecomendacao.recomendacaoCursoCanto; // fazendo validação linha do radio button
+		var RecomendacaoCursoU = document.formularioRecomendacao.recomendacaoCursoGuitarra; // fazendo validação linha do radio button
+		var RecomendacaoCursoV = document.formularioRecomendacao.recomendacaoCursoBaixo; // fazendo validação linha do radio button
+		var RecomendacaoCursoX = document.formularioRecomendacao.recomendacaoCursoBateria; // fazendo validação linha do radio button
+
+        for(var p = 0; p < RecomendacaoCursoS.length; p++)
+        {
+            if(RecomendacaoCursoS[p].checked)
+            {
+            	validaP = true; // Valida P
+
+            	if(validaP == true)
+            	{
+            		for(var q = 0; q < RecomendacaoCursoT.length; q++)
+                	{
+                		if(RecomendacaoCursoT[q].checked)
+                		{
+                			validaQ = true; // Valida Q
+
+                			if(validaQ == true)
+            				{
+            					for(var r = 0; r < RecomendacaoCursoU.length; r++)
+                				{
+                					if(RecomendacaoCursoU[r].checked)
+                					{
+                						validaR = true; // Valida R
+                					
+                						if(validaR == true)
+            							{
+            								for(var s = 0; s < RecomendacaoCursoV.length; s++)
+                							{
+                								if(RecomendacaoCursoV[s].checked)
+                								{
+                									validaS = true;  // Valida S
+                			
+													if(validaS == true)
+            										{
+            											for(var t = 0; t < RecomendacaoCursoX.length; t++)
+                										{
+                											if(RecomendacaoCursoX[t].checked)
+                											{
+                												validaT = true;  // Valida T
+                												break;
+                											}
+                										}
+               										}
+                								}
+                							}
+               							}
+                					}
+                				}
+               				}
+                		}
+                	}
+                }
+            }
+        }
+
+        if((validaP == true) && (validaQ == true) && (validaR == true) && (validaS == true) && (validaT == true))
+        {
+            alert("Validação de Campos com sucesso!");
+        }
+        else
+        {
+            alert("Falta campo a validar!");
+            //return false;
+        } // Script de funcionamento de validação de botão 3
+
+//
+    
+    // 5)	Como você classifica os instrumentos?
+
+		var validaU = false;
+		var validaV = false;
+		var validaX = false;
+		var validaY = false;
+		var validaZ = false;
+
+        var instrumentoS = document.formularioInstrumentos.instrumentoViolao; // fazendo validação linha do radio button
+        var instrumentoT = document.formularioInstrumentos.instrumentoCanto; // fazendo validação linha do radio button
+		var instrumentoU = document.formularioInstrumentos.instrumentoGuitarra; // fazendo validação linha do radio button
+		var instrumentoV = document.formularioInstrumentos.instrumentoBaixo; // fazendo validação linha do radio button
+		var instrumentoX = document.formularioInstrumentos.instrumentoBateria; // fazendo validação linha do radio button
+
+        for(var u = 0; u < instrumentoS.length; u++)
+        {
+            if(instrumentoS[u].checked)
+            {
+            	validaU = true; // Valida P
+
+            	if(validaU == true)
+            	{
+            		for(var v = 0; v < instrumentoT.length; v++)
+                	{
+                		if(instrumentoT[v].checked)
+                		{
+                			validaV = true; // Valida Q
+
+                			if(validaV == true)
+            				{
+            					for(var x = 0; x < instrumentoU.length; x++)
+                				{
+                					if(instrumentoU[x].checked)
+                					{
+                						validaX = true; // Valida R
+                					
+                						if(validaX == true)
+            							{
+            								for(var y = 0; y < instrumentoV.length; y++)
+                							{
+                								if(instrumentoV[y].checked)
+                								{
+                									validaY = true;  // Valida S
+                			
+													if(validaY == true)
+            										{
+            											for(var z = 0; z < instrumentoX.length; z++)
+                										{
+                											if(instrumentoX[z].checked)
+                											{
+                												validaZ = true;  // Valida T
+                												break;
+                											}
+                										}
+               										}
+                								}
+                							}
+               							}
+                					}
+                				}
+               				}
+                		}
+                	}
+                }
+            }
+        }
+
+        if((validaU == true) && (validaV == true) && (validaX == true) && (validaY == true) && (validaZ == true))
+        {
+            alert("Validação de Campos com sucesso!");
+        }
+        else
+        {
+            alert("Falta campo a validar!");
+            //return false;
+        } // Script de funcionamento de validação de botão 3
+
+
+    } // Final function
+
+
+// ========================================================================================================
+
+// Final Script 
+</script> 
+
+
+<!-- ======================================================================= --> 
+
+						      <!--JAVASCRIPT--> 
+
+<!-- ======================================================================= --> 
+
+<body>
+
+
+</body>
+</html>
